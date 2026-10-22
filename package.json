@@ -71,5 +71,10 @@
     "check": "for f in src/*.mjs scripts/*.mjs; do node --check \"$f\" || exit 1; done",
     "test": "node --test tests/prove-*.mjs"
   },
-  "private": false
+  "private": false,
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
 }
